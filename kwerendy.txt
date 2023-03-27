@@ -1,0 +1,17 @@
+kw1
+SELECT * FROM pokoje;
+
+kw2
+SELECT rezerwacje.id_pok, rezerwacje.sezon FROM rezerwacje
+WHERE rezerwacje.liczba_dn > 7;
+
+kw3
+SELECT SUM(rezerwacje.liczba_dn) AS "SUMA" FROM rezerwacje
+WHERE rezerwacje.sezon="zima";
+
+kw4
+UPDATE rezerwacje SET rezerwacje.liczba_dn=4
+WHERE rezerwacje.liczba_dn < 4;
+
+kw5
+CREATE USER 'najemca'@'localhost' IDENTIFIED BY 'n@JEM1@!';

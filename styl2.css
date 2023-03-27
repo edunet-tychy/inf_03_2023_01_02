@@ -1,0 +1,56 @@
+html {
+  font-family: Garamond, sans-serif;
+  text-align: center;
+  background-color: lavender;
+}
+
+body {
+  background-color: lavender;
+}
+
+.baner,
+.footer {
+  background-color: #af8eb5;
+  color: #fff;
+  padding: 10px;
+}
+
+.lewy,
+.srodek,
+.prawy {
+  background-color: #e1bee7;
+  width: 30%;
+  height: 500px;
+  padding-top: 40px;
+  margin: 15px;
+  box-shadow: 10px 10px 10px dimgray;
+}
+
+a {
+  color: indigo;
+  font-size: 150%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: indigo;
+  color: #fff;
+}
+
+img,
+table {
+  border: 1px solid;
+  width: 80%;
+  margin: 40px auto;
+}
+
+/* Uzupełnienie zapisu CSS */
+.main {
+  display: flex;
+}
+
+img {
+  display: block;
+  max-width: 300px;
+}
